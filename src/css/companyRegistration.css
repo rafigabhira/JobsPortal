@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body, html {
+    background: white linear-gradient(19deg, #21D4FD 0%, #B721FF 100%) no-repeat;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn.btn-outline-light:hover,
+.btn.btn-outline-light:focus,
+.btn.btn-outline-light:active,
+.btn.btn-outline-light.active {
+    color: #ffffff;
+    background-color: #AD74FF;
+    border-color: white;
+}
+
+.btn.btn-info:hover,
+.btn.btn-info:focus,
+.btn.btn-info:active,
+.btn.btn-info.active {
+    color: #ffffff;
+    background-color: #B721FF;
+    border-color: #B721FF;
+}
+
+.btn.btn-info {
+    background-color: #21D4FD;
+    border-color: #21D4FD;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.error {
+    font-size: 12px;
+}
+
+.form-control {
+    border-radius: 3px;
+    border-color: #E9E9E9;
+    font-size: 15px;
+}
+
+nav.navbar {
+    margin-top: 10px;
+}
+
+.navbar a.navbar-brand {
+    color: white;
+}
+
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+}
+
+.navbar a.navbar-brand:hover {
+    color: #E9E9E9;
+}
+
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+.nav-item {
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #AD74FF;
+    border-radius: 2px;
+}
+
+.label-form {
+    font-size: 15px;
+    color: #979A9A;
+}
+
+.container-form {
+    padding: 20px 20px 1px;
+    background-color: white;
+    box-shadow: 0 15px 60px -32px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+}
+
+span {
+    color: red;
+}
+
+.wajib-diisi {
+    font-size: 13px;
+}
+
+#form-registrasi {
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+hr {
+    border-top-color: white;
+    border-top-width: 3px;
+}
+
+#companysubmit,
+#adminsubmit,
+#kembali {
+    width: 12em;
+}
+
+#titleRegisAdmin {
+    color: #21D4FD;
+}
+
+#namaPerusahaan {
+    color: deepskyblue;
+}
+
+

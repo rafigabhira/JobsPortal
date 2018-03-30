@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+    background: white linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    font-family: 'Comfortaa', cursive;
+}
+
+#register {
+    background-color: white;
+    transition-duration: 0.4s;
+    float: right;
+}
+
+#register:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+.form-control {
+    border-radius: 3px;
+    border-color: transparent;
+    font-size: 15px;
+}
